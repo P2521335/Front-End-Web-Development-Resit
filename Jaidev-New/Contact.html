@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/icon.jpg" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>iStoreCollection</title>
+  </head>
+  <body>
+  <nav class="nav">
+    <div class="container">
+      <h1 class="logo"><a href="index.html">iStore Collection</a></h1>
+      <div class="nav-links" id="navLinks">
+        <ul id="mobile-menu">
+          <li><a href="javascript:void(0)" onclick="hideMenu()">X</a> </li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <span class="mobile-menu" onclick="showMenu()">Menu</span>
+      </div>
+    </div>
+  </nav>
+
+    <div class="maps">
+      <div class="container">
+
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d2420.3283092020697!2d-1.1223736850252024!3d52.65404729600723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x487761082ca2b127%3A0x1c9cc7f01780acc4!2sShaftesbury%20Ave%2C%20Leicester%20LE4%205DQ!3m2!1d52.654401799999995!2d-1.1215279!5e0!3m2!1sen!2suk!4v1649369864065!5m2!1sen!2suk"
+      width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      </div>
+    </div>
+    <section class="container content">
+      <div class="forms">
+        <div class="container">
+          <h3>Contact Us</h3>
+      <p>
+        Please let us know how we're doing by leaving us a review.
+      </p>
+
+
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">India</option>
+                <option value="usa">United Kingdom</option>
+                <option value="usa">USA</option>
+              </select><br>
+
+              <label for="subject">Comment</label><br>
+              <textarea id="subject" name="subject" placeholder="Write something.." style=" height:200px "></textarea><br>
+              <input type="submit" value="Submit">
+            </form>
+
+        </div>
+      </div>
+
+    </section>
+
+
+     <div class="footer">
+        <div class="inner-footer">
+          <div class="inner-footer-one">
+            <h1 class="logo"><a href="#">iStoreCollection</a></h1>
+          </div>
+        </div>
+        <div class="inner-footer">
+          <div class="address-section">
+            <h3>Contact Us</h3>
+            <ul class="list">
+              <li><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp; 9 Newington Walk, Leicester LE4 5DN</li>
+              <li><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;iStoreCollection@gmail.com</li>
+              <li><i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;+44 77438931929</li>
+            </ul>
+          </div>
+        </div>
+        <div class="inner-footer">
+          <div class="links">
+            <h3>Useful Links</h3>
+            <ul class="list">
+              <li><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;&nbsp;<a href="#">Home</a></li>
+              <li><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;&nbsp;<a href="#">About Us</a></li>
+              <li><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;&nbsp;<a href="#">Services</a></li>
+              <li><i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;&nbsp;<a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="clr"></div>
+      </div>
+    <script src="script.js"></script>
+  </body>
+</html>
